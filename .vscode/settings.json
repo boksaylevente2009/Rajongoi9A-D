@@ -1,0 +1,9 @@
+{
+    "git.branchProtection": [
+        "main"
+    ],
+    "git.branchProtectionPrompt": "alwaysCommitToNewBranch",
+    "git.autofetch": true,
+    "git.autofetchPeriod": 60,
+    "git.enableSmartCommit": true
+}
