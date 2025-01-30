@@ -1,6 +1,7 @@
 {
     "git.branchProtection": [
         "main"
+        "git-commit"
     ],
     "git.branchProtectionPrompt": "alwaysCommitToNewBranch",
     "git.autofetch": true,
