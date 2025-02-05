@@ -40,3 +40,31 @@ font-size: 1.25rem;
     visibility: visible;
 }
 
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(TheRock.jpg);
+    background-repeat: no-repeat;
+}
+.navbar-brand{
+    color: rgb(14, 177, 68);
+}
+.nav-item a:hover{
+    color: aqua;
+    background-color: rgb(56, 100, 102);
+    border: 1px solid black;
+    text-align: center;
+}
+.dropdown-item{
+    text-align: center;
+    border-radius: 30px ;
+}
+.nav-link{
+    font-size: larger;
+}
+.container-fluid{
+    background-color: rgb(35, 85, 87);
+    height: 60px;
+}
+.dropdown-menu{
+    background-color: rgb(57, 123, 126);
+}
