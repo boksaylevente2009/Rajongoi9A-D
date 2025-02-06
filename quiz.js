@@ -1,11 +1,11 @@
 const  questions = [
     {
-        question: "Hol született Dwayne Johnson?",
+        question: "Mikor született Dwayne Johnson ?",
         answers: [
-            { text: "New York", correct: false},
-            { text: "Kalifornia", correct: true},
-            { text: "Miami", correct: false},
-            { text: "London", correct: false},
+            { text: "1969", correct: false},
+            { text: "1974", correct: false},
+            { text: "1972", correct: true},
+            { text: "1965", correct: false},
         ]
     },
     {
@@ -18,30 +18,47 @@ const  questions = [
         ]
     },
     {
-        question: "Hol született Dwayne Johnson?",
+        question: "Melyik filmben nem játszott Dwayne Johnson?",
         answers: [
-            { text: "New York", correct: false},
-            { text: "Kalifornia", correct: true},
-            { text: "Miami", correct: false},
-            { text: "London", correct: false},
+            { text: "Pancser Police", correct: false},
+            { text: "Halálos iramban 6.", correct: false},
+            { text: "Forrest Gump", correct: true},
+            { text: "A skorpiókirály", correct: false},
         ]
     },
     {
-        question: "Hol született Dwayne Johnson?",
+        question: "Mi a beceneve Dwayne Johnsonnak?",
         answers: [
-            { text: "New York", correct: false},
-            { text: "Kalifornia", correct: true},
-            { text: "Miami", correct: false},
-            { text: "London", correct: false},
+            { text: "The Rock", correct: true},
+            { text: "The Eagle", correct: false},
+            { text: "The Egg", correct: false},
+            { text: "The Lion", correct: false},
         ]
     },
     {
-        question: "Hol született Dwayne Johnson?",
+        question: "Melyik volt az első filmje Dwayne Johnsonnak?",
         answers: [
-            { text: "New York", correct: false},
-            { text: "Kalifornia", correct: false},
-            { text: "Miami", correct: true},
-            { text: "London", correct: false},
+            { text: "A múmia visszatér", correct: true},
+            { text: "Halálos iramban 3.", correct: false},
+            { text: "A Boszorkány-hegy", correct: false},
+            { text: "Tombolás", correct: false},
+        ]
+    },
+    {
+        question: "Hány gyermeke van Dwayne Johnsonnak?",
+        answers: [
+            { text: "0", correct: false},
+            { text: "1", correct: false},
+            { text: "2", correct: true},
+            { text: "3", correct: false},
+        ]
+    },
+    {
+        question: "Dwayne Johnson nem szeret horgászni",
+        answers: [
+            { text: "Igaz", correct: false},
+            { text: "Hamis", correct: true},
+           
         ]
     },
  
@@ -57,7 +74,7 @@ let score = 0;
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
-    nextButton.innerHTML = "Next";
+    nextButton.innerHTML = "Következő";
     showQuestion();
 }
 function showQuestion() {
@@ -106,7 +123,7 @@ function selectAnswer(e){
     }
   function showScore(){
     resetState();
-    questionElement.innerHTML = `Elértél Ennyit ${score} Ennyiből ${questions.length}!`;
+    questionElement.innerHTML = ` ${score} pontot értél el a ${questions.length} pontból !`;
     nextButton.innerHTML = "Játssz újra";
     nextButton.style.display = "block"
   }
