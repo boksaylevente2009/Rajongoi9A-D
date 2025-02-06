@@ -44,6 +44,7 @@ font-size: 1.25rem;
     background-color: rgb(0, 0, 0);
     background-image: url(TheRock.jpg);
     background-repeat: no-repeat;
+    
 }
 .nav-item a:hover{
     color: aqua;
@@ -58,4 +59,18 @@ font-size: 1.25rem;
     background-color: rgb(35, 85, 87);
     height: 60px;
 }
+}
+.rolunk{
+    background-color: blue;
+    background-image: url(hatter.jpg)
+}
+.penz{
+    background-image: url(alma.jpg);
+}
+.anya{
+    background-image: url(hatter.jpg);
+    
+    
+    
+
 }
