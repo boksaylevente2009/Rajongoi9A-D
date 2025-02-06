@@ -40,7 +40,7 @@ font-size: 1.25rem;
     visibility: visible;
 }
 
-body{
+.alma{
     background-color: rgb(0, 0, 0);
     background-image: url(TheRock.jpg);
     background-repeat: no-repeat;
