@@ -1,18 +1,40 @@
 h4{
     text-align: center;
     font-weight: bold;
-    text-decoration: underline red;
-    color: silver;
+    text-decoration: underline black 2.34px;
+    color: black;
+    word-spacing: 1.4px;
+    letter-spacing: 1.4px;
 }
 
 h6{
-    color: dimgray;
+    color: black;
+    word-spacing: 2px;
+    letter-spacing: 1.28px;
 }
 
-b{
-    font-size: 1.1em;
+h6>b{
+    font-size: 1.23em;
+}
+
+
+.szövegdoboz{
+    border: 0.5px solid black;
+    border-radius: 25px;
+    text-align: center;
+    font-family: 'Times New Roman';
+    padding: 10px  10px;
+    background-color: cornflowerblue;
+}
+
+.szövegdoboz2{
+    border: 0.5px solid black;
+    border-radius: 25px;
+    padding: 10px 10px;
+    font-family: 'Times New Roman';
+    background-color: cornflowerblue;  
 }
 
 body{
-    background-image: url(karrier\ háttér.png);
+    background-color: beige;
 }
