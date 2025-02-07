@@ -5,8 +5,6 @@ h4{
     color: black;
     word-spacing: 1.4px;
     letter-spacing: 1.4px;
-    text-decoration: underline red;
-    color: black
 }
 
 h6{
@@ -40,11 +38,3 @@ h6>b{
 body{
     background-color: beige;
 }
-.szövegdoboz{
-    border: 0.5px solid black;
-    border-radius: 25px;
-    text-align: center;
-    font-family: 'Times New Roman';
-}
-
-
