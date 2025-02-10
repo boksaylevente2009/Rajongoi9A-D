@@ -24,15 +24,31 @@ h6>b{
     text-align: center;
     font-family: 'Times New Roman';
     padding: 10px  10px;
-    background-color: cornflowerblue;
+    background-color: rgb(16, 123, 131);
+    max-width: 1000px;
 }
+.szövegdoboz3{
+    border: 0.5px solid black;
+    border-radius: 25px;
+    text-align: center;
+    font-family: 'Times New Roman';
+    padding: 10px  10px;
+    background-color: rgb(16, 123, 131);
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
+}
 .szövegdoboz2{
     border: 0.5px solid black;
     border-radius: 25px;
     padding: 10px 10px;
     font-family: 'Times New Roman';
-    background-color: cornflowerblue;  
+    background-color:rgb(16, 123, 131) ;  
+    max-width: 1000px;
+    position: absolute;
+    right: 0px;
 }
 
 body{
@@ -40,13 +56,17 @@ body{
 }
 .jumanji{
     float: right;
+    border-radius: 40px;
     
 }
 .fiatal{
     float: right;
-    
+    border-radius: 40px;
 }
 .wwe{
     float: right;
-    
+    border-radius: 40px;
+}
+.penz{
+    background-image: url(hatter.jpg);
 }
