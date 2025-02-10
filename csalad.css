@@ -1,6 +1,6 @@
-#szöveg {
-    border: 1px black;
-    border-radius: 25px;
+#szoveg{
+    border: 0.5px solid white;
+    border-radius: 25px ;
 }
 
 body {
