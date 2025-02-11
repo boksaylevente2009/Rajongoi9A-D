@@ -5,15 +5,13 @@
     font-family: 'Times New Roman';
     background-color: rgb(16, 123, 131);
     max-width: 1000px;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
     text-align: justify;
     letter-spacing: 1.4px;
     word-spacing: 1.4px;
     hyphens: auto;
     text-justify: inter-word;
     padding: 12px 12px 12px 12px;
+    margin: 2px;
 }
 
 body {
