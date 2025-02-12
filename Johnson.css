@@ -42,7 +42,7 @@ font-size: 1.25rem;
 
 .alma{
     background-color: rgb(0, 0, 0);
-    background-image: url(TheRock.jpg);
+    background-image: url
     background-repeat: no-repeat;
     
 }
@@ -69,4 +69,7 @@ font-size: 1.25rem;
 }
 .h6{
     color: white;
+}
+.kacsa{
+    margin: 300px;
 }
