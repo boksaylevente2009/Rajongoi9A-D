@@ -79,3 +79,20 @@ body {
 .incorrect {
     background: #ff9393
 }
+.gomb{
+    text-decoration: none;
+    border-radius: 60px;
+    width: 90px;
+    height: 40px;
+    font-size: large;
+    font-style: initial;
+    font-weight: bold;
+    
+    
+}
+.gomb :hover{
+    color: white;
+    background-color: rgb(245, 87, 87);
+
+}
+
