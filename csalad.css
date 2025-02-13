@@ -15,12 +15,13 @@
 }
 
 .szoveg {
-    margin: 2.1px;
+    display: block;
+    justify-content: flex-end;
 }
 
 .szoveg2 {
     float: right;
-    display: flex;
+    display: block;
     justify-content: flex-end;
 }
 
