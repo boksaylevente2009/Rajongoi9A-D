@@ -58,4 +58,5 @@ body {
 img{
   float: right;
   border-radius: 40px;
+  padding: 10px;
 }
