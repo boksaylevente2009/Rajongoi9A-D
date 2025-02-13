@@ -1,5 +1,5 @@
-.szoveg{
-    border: 0px solid black;
+.szoveg, .szoveg2, .szoveg3 {
+    border: 0 solid black;
     border-radius: 25px;
     text-align: center;
     font-family: 'Times New Roman';
@@ -10,53 +10,31 @@
     word-spacing: 1.4px;
     hyphens: auto;
     text-justify: inter-word;
-    padding: 12px 12px 12px 12px;
+    padding: 12px;
+    margin: 20px;
+}
+
+.szoveg {
     margin: 2.1px;
 }
 
-.szoveg2{
-  border: 0px solid black;
-  border-radius: 25px;
-  text-align: center;
-  font-family: 'Times New Roman';
-  background-color: rgb(16, 123, 131);
-  max-width: 1000px;
-  text-align: justify;
-  letter-spacing: 1.4px;
-  word-spacing: 1.4px;
-  hyphens: auto;
-  text-justify: inter-word;
-  padding: 12px 12px 12px 12px;
-  margin: 20px;
-  float: right;
-  display: flex;
-  justify-content: flex-end;
+.szoveg2 {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
 }
-.szoveg3{
-  border: 0px solid black;
-  border-radius: 25px;
-  text-align: center;
-  font-family: 'Times New Roman';
-  background-color: rgb(16, 123, 131);
-  max-width: 1000px;
-  text-align: justify;
-  letter-spacing: 1.4px;
-  word-spacing: 1.4px;
-  hyphens: auto;
-  text-justify: inter-word;
-  padding: 12px 12px 12px 12px;
-  margin: 20px;
-  float: left;
-  display: flex;
-  justify-content: flex-end;
+
+.szoveg3 {
+    float: left;
+    display: block; /* Changed from flex to block */
 }
 
 body {
-  color: black
+    color: black;
 }
 
-img{
-  float: right;
-  border-radius: 40px;
-  padding: 10px;
+img {
+    float: right;
+    border-radius: 40px;
+    padding: 10px;
 }
