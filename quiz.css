@@ -80,6 +80,7 @@ body {
     background: #ff9393
 }
 .gomb{
+    color: rgba(240, 12, 12, 0.699);
     text-decoration: none;
     border-radius: 60px;
     width: 90px;
@@ -93,6 +94,7 @@ body {
 .gomb :hover{
     color: white;
     background-color: rgb(245, 87, 87);
+    
 
 }
 
