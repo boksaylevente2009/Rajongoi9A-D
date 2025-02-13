@@ -3,3 +3,15 @@ img{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.szövegdoboz1{
+    border-radius: 30px;
+    border: 2px solid black;
+    margin: 150px;
+    padding-bottom: 110px;
+    background-color:burlywood ;
+}
+
+.h6{
+    color: black;
+}
