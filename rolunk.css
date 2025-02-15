@@ -4,16 +4,8 @@ img{
     margin-right: 10px;
 }
 
-.szövegdoboz1{
-    border-radius: 30px;
-    border: 2px solid black;
-    margin: 150px 0px 150px 300px;
-    padding-bottom: 110px;
-    background-color:burlywood;
-    position: fixed;
-    width: 80%;
-}
+
 
 .h6{
-    color: black;
+    color: white;
 }
