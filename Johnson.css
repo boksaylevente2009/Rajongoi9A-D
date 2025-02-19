@@ -59,10 +59,10 @@ font-size: 1.25rem;
 }
 .rolunk{
     background-color: blue;
-    background-image: url(hatter.jpg)
+    background-image: url(képek/hatter.jpg)
 }
 .anya{
-    background-image: url(hatter.jpg);
+    background-image: url(/képek/hatter.jpg);
 }
 .h6{
     color: white;
