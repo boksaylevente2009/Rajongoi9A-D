@@ -62,7 +62,7 @@ font-size: 1.25rem;
     background-image: url(képek/hatter.jpg)
 }
 .anya{
-    background-image: url(/képek/hatter.jpg);
+    background-image: url(képek/hatter.jpg);
 }
 .h6{
     color: white;
